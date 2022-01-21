@@ -1,86 +1,83 @@
 .divGeneral {
-    width: 100%;
-  }
-  .header {
-    display: block;
-    margin: 0 auto;
-    box-sizing: border-box;
-    width: 92%;
-    background-color: gainsboro;
-    overflow: hidden;
-    height: 160px;
-    box-shadow: 1px 1px 1px black;
-    border-bottom-right-radius:10px  ;
-    border-bottom-left-radius:10px  ;
-  }
-  
-  .centroHeader{
-    display: flex;
-    margin-left:143px ; 
-  }
-  
-  
-  .h1Titulo {
-  
-     color: rgb(233, 88, 88);
-    font-style: oblique;
-    font-size: 60px;
-    margin-right:55px ;
-    margin-left:13px ;
-  
-  }
-  
-  .imagenTitulo {
-    width: 12%;
-    height: 100%;
-  }
-  .imagenBanda {
-    width: 40%;
-  
-  
-  }
-  
-  .imagenTitulo {
-    width: 12%;
-    height: 100%;
-  }
-  
-    .imagenBanda img{
-        width: 65%;
-    }
-  
-    .imagenTitulo {
-      width: 12%;
-      height: 100%;
-    }
-    .nav {
-        display: block;
-        margin: 0 auto;
-        width: 92%;
-        background-color: gainsboro;
-        border-bottom-right-radius:10px  ;
-    border-bottom-left-radius:10px  ;
-      }
-      .botones {
-        background-color: purple;
-        font-style: oblique;
-        font-size: 25px;
-        border-bottom-right-radius:10px  ;
-    border-bottom-left-radius:10px  ;
-    margin-left: 10%;
-      }
-      .table {
-        margin: auto;
-        cursor: pointer;
-      }
-      .table2 {
-        width: 10%;
-        height: 100%;
-        cursor: pointer;
-      }
-      .imagen {
-        display: block;
-        margin: auto;
-        width: 80%;
-        margin-top: 40px;
-      }
+  width: 100%;
+}
+.header {
+  display: block;
+  margin: 0 auto;
+  box-sizing: border-box;
+  width: 92%;
+  background-color: gainsboro;
+  overflow: hidden;
+  height: 160px;
+  box-shadow: 1px 1px 1px black;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.centroHeader {
+  display: flex;
+  margin-left: 143px;
+}
+
+.h1Titulo {
+  color: rgb(233, 88, 88);
+  font-style: oblique;
+  font-size: 60px;
+  margin-right: 55px;
+  margin-left: 13px;
+}
+
+.imagenTitulo {
+  width: 12%;
+  height: 100%;
+  margin: auto 0;
+}
+.imagenBanda {
+  width: 32%;
+  margin: auto 0;
+}
+
+.imagenTitulo {
+  width: 12%;
+  height: 100%;
+}
+
+.imagenBanda img {
+  width: 65%;
+}
+
+.imagenTitulo {
+  width: 12%;
+  height: 100%;
+}
+.nav {
+  display: block;
+  margin: 0 auto;
+  width: 92%;
+  background-color: gainsboro;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.botones {
+  background-color: purple;
+  font-style: oblique;
+  font-size: 25px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  margin-left: 10%;
+}
+.table {
+  margin: auto;
+  cursor: pointer;
+}
+.table2 {
+  width: 10%;
+  height: 100%;
+  cursor: pointer;
+}
+.imagen {
+  display: block;
+  margin: auto;
+  width: 80%;
+  margin-top: 40px;
+}
