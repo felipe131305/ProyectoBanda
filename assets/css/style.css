@@ -81,3 +81,46 @@
   width: 80%;
   margin-top: 40px;
 }
+
+.content{
+  display: block;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.content .contentTitle{
+  text-align: center;
+  font-size: 35px;
+  color: black;
+}
+
+.normal{
+  width: 100%;
+  padding: 10px 10px;
+  display: flex;
+  box-sizing: border-box;
+}
+
+.normalInverso{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.imagenArtista{
+  width: 40%;
+  display: block;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.imagenArtista img{
+  width: 320px;
+}
+
+.bloqueInfo{
+  padding: 10px 20px;
+}
+
+.bloqueInfo p{
+  font-size: 22px;
+}
