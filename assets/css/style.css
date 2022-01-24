@@ -18,6 +18,14 @@
   display: flex;
   margin-left: 143px;
 }
+.DivCarrusel {
+  width:  60%;
+  margin-left: auto;
+  margin-right: auto;
+  
+  
+  
+}
 
 .h1Titulo {
   color: rgb(233, 88, 88);
