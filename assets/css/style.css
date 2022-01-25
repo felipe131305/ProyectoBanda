@@ -1,12 +1,19 @@
+body {
+  background: linear-gradient(90deg, #2f3030 0%, #9b9b9b 35%);
+}
+
 .divGeneral {
   width: 100%;
+  /* background: rgb(2,0,36); */
+  /* background-color: #2f3030; */
 }
+
 .header {
   display: block;
   margin: 0 auto;
   box-sizing: border-box;
   width: 92%;
-  background-color: gainsboro;
+  background-color: #d95030ba;
   overflow: hidden;
   height: 160px;
   box-shadow: 1px 1px 1px black;
@@ -14,13 +21,22 @@
   border-bottom-left-radius: 10px; */
 }
 
+.colorCarrusel{
+  font-size: 20px;
+}
+
 .centroHeader {
   display: flex;
   margin-left: 143px;
 }
+.DivCarrusel {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .h1Titulo {
-  color: rgb(233, 88, 88);
+  color:  #2f3030;;
   font-style: oblique;
   font-size: 60px;
   margin-right: 55px;
@@ -54,7 +70,7 @@
   display: block;
   margin: 0 auto;
   width: 92%;
-  background-color: gainsboro;
+  background-color: #a3a2a223;
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
 }
@@ -117,14 +133,14 @@
 
 /* estilos para los albuns */
 
-.divContenedorAlbun{
+.divContenedorAlbun {
   display: block;
   margin: 0 auto;
   width: 92%;
-  height: auto;
+  /* height: auto; */
 }
 
-.divAlbun{
+.divAlbun {
   float: left;
   width: 400px;
   height: 370px;
@@ -132,7 +148,7 @@
   border-radius: 20px;
 }
 
-.imgAlbun{
+.imgAlbun {
   display: block;
   margin: 0 auto;
   width: 200px;
@@ -142,66 +158,83 @@
   cursor: pointer;
 }
 
-.imgAlbun:hover{
+.imgAlbun:hover {
   transform: scale(1.03);
 }
 
-.tituloAlbun{
+.tituloAlbun {
   text-align: center;
 }
 
-.descripcionAlbun{
+.descripcionAlbun {
   text-align: center;
 }
 
-
-.content{
+.content {
   display: block;
   margin: 0 auto;
   width: 90%;
 }
 
-.content .contentTitle{
+.contentTitle {
   text-align: center;
   font-size: 35px;
-  color: black;
+  color: #d95030ba;
 }
 
-.normal{
+.normal {
   width: 100%;
   padding: 10px 10px;
   display: flex;
   box-sizing: border-box;
 }
 
-.normalInverso{
+.normalInverso {
   display: flex;
   flex-direction: row-reverse;
 }
 
-.imagenArtista{
+.imagenArtista {
   width: 40%;
   display: block;
   margin-top: auto;
   margin-bottom: auto;
 }
 
-.imagenArtista img{
+.imagenArtista img {
   width: 320px;
 }
 
-.bloqueInfo{
+.bloqueInfo {
   padding: 10px 20px;
 }
 
-.bloqueInfo p{
+.bloqueInfo p {
   font-size: 22px;
 }
 
 footer{
-  background-color: rgb(161, 155, 155);
-  color: rgb(2, 8, 14);
+  background-color: #d95030ba;
+  color: #02080e;
   text-align: center;
   bottom: 0;
+  width: 100%;
+}
+.visita{
+  text-align: center;
+ width: 100%;
+  display: block;
+  color: #02080e;
+  padding: 10px 10px;
+}
+.divvideo {
+  margin: 0 auto;
+  display: block;
+}
+.estiloParrafos{
+  color: whitesmoke;
 
+}
+.size{
+  font-size: 20px;
 }
