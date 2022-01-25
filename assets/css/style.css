@@ -197,3 +197,11 @@
 .bloqueInfo p{
   font-size: 22px;
 }
+
+footer{
+  background-color: rgb(161, 155, 155);
+  color: rgb(2, 8, 14);
+  text-align: center;
+  bottom: 0;
+
+}
