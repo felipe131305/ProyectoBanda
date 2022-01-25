@@ -1,4 +1,4 @@
-body{
+body {
   background: linear-gradient(90deg, #2f3030 0%, #9b9b9b 35%);
 }
 
@@ -21,12 +21,16 @@ body{
   border-bottom-left-radius: 10px; */
 }
 
+.colorCarrusel{
+  font-size: 20px;
+}
+
 .centroHeader {
   display: flex;
   margin-left: 143px;
 }
 .DivCarrusel {
-  width:  60%;
+  width: 60%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -129,14 +133,14 @@ body{
 
 /* estilos para los albuns */
 
-.divContenedorAlbun{
+.divContenedorAlbun {
   display: block;
   margin: 0 auto;
   width: 92%;
   /* height: auto; */
 }
 
-.divAlbun{
+.divAlbun {
   float: left;
   width: 400px;
   height: 370px;
@@ -144,7 +148,7 @@ body{
   border-radius: 20px;
 }
 
-.imgAlbun{
+.imgAlbun {
   display: block;
   margin: 0 auto;
   width: 200px;
@@ -154,62 +158,64 @@ body{
   cursor: pointer;
 }
 
-.imgAlbun:hover{
+.imgAlbun:hover {
   transform: scale(1.03);
 }
 
-.tituloAlbun{
+.tituloAlbun {
   text-align: center;
 }
 
-.descripcionAlbun{
+.descripcionAlbun {
   text-align: center;
 }
 
-
-.content{
+.content {
   display: block;
   margin: 0 auto;
   width: 90%;
 }
 
-.content .contentTitle{
+.contentTitle {
   text-align: center;
   font-size: 35px;
   color: #d95030ba;
 }
 
-.normal{
+.normal {
   width: 100%;
   padding: 10px 10px;
   display: flex;
   box-sizing: border-box;
 }
 
-.normalInverso{
+.normalInverso {
   display: flex;
   flex-direction: row-reverse;
 }
 
-.imagenArtista{
+.imagenArtista {
   width: 40%;
   display: block;
   margin-top: auto;
   margin-bottom: auto;
 }
 
-.imagenArtista img{
+.imagenArtista img {
   width: 320px;
 }
 
-.bloqueInfo{
+.bloqueInfo {
   padding: 10px 20px;
 }
 
-.bloqueInfo p{
+.bloqueInfo p {
   font-size: 22px;
 }
-
+.divvideo {
+  margin: 0 auto;
+  display: block;
+}
 .estiloParrafos{
   color: whitesmoke;
 
