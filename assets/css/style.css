@@ -5,11 +5,9 @@ body {
 .divGeneral {
   width: 100%;
   /* background: rgb(2,0,36); */
-  background: linear-gradient(90deg, #2f3030 0%, #9b9b9b 35%);
   /* background-color: #2f3030; */
-
-
 }
+
 .header {
   display: block;
   margin: 0 auto;
@@ -21,6 +19,10 @@ body {
   box-shadow: 1px 1px 1px black;
   /* border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px; */
+}
+
+.colorCarrusel{
+  font-size: 20px;
 }
 
 .centroHeader {
@@ -68,7 +70,7 @@ body {
   display: block;
   margin: 0 auto;
   width: 92%;
-  background-color: gainsboro;
+  background-color: #a3a2a223;
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
 }
@@ -174,7 +176,7 @@ body {
   width: 90%;
 }
 
-.content .contentTitle {
+.contentTitle {
   text-align: center;
   font-size: 35px;
   color: #d95030ba;
@@ -209,6 +211,21 @@ body {
 
 .bloqueInfo p {
   font-size: 22px;
+}
+
+footer{
+  background-color: #d95030ba;
+  color: #02080e;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+}
+.visita{
+  text-align: center;
+ width: 100%;
+  display: block;
+  color: #02080e;
+  padding: 10px 10px;
 }
 .divvideo {
   margin: 0 auto;
