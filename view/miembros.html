@@ -12,7 +12,9 @@
     />
     <link rel="stylesheet" href="../assets/css/normalize.css" />
     <link rel="stylesheet" href="../assets/css/style.css" />
-    <title>Document</title>
+    <link rel="stylesheet" href="../assets/css/btn.css">
+    <link rel="stylesheet" href="../assets/css/mp3.css">
+    <title>Miembros</title>
   </head>
   <body>
     <main class="divGeneral">
@@ -187,6 +189,52 @@
             </p>
           </div>
         </div>
+        <div class="containerBtn">
+          <input type="checkbox" id="btn-mas" />
+          <div class="redes" id="mp3Player">
+    
+            <!-- Player -->
+            <div class="player">
+              <!-- Title -->
+              <h1 class="title" id="title"></h1>
+    
+              <!-- Cover -->
+              <img src="" alt="" class="cover" id="cover" />
+    
+              <!-- Audio HTML Media elememt -->
+              <audio src="" id="audio"></audio>
+    
+              <!-- Progress bar -->
+              <div id="progress-container" class="progress-container">
+                <section id="progress" class="progress"></section>
+              </div>
+    
+              <!-- Controls -->
+              <section class="controls">
+                <button class="prev">
+                  <i id="prev" class="fas fa-backward"></i>
+                </button>
+                <button class="play">
+                  <i id="play" class="fas fa-play"></i>
+                </button>
+                <button class="next">
+                  <i id="next" class="fas fa-forward"></i>
+                </button>
+              </section>
+    
+              <!-- Song list -->
+              <ul class="songs" id="songs">
+                <!-- <li><p>Song 1</p></li> -->
+              </ul>
+            </div>
+    
+          </div>
+          <div class="btn-mas">
+            <label for="btn-mas" id="btn-mp3" class="fas fa-music"></label>
+          </div>
+        </div>
+        <script src="../assets/js/main.js"></script>
+        <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
       </div>
     </main>
   </body>
