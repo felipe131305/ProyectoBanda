@@ -29,6 +29,16 @@ const songList = [
     title: "This I Love",
     file: "This I Love.mp3",
     cover: "This I Love.jpg"
+  },
+  {
+    title: "Knockin On Heavens Door",
+    file: "Knockin On Heavens Door.mp3",
+    cover: "Knockin On Heavens Door.jpg"
+  },
+  {
+    title: "Live And Let Die Live",
+    file: "Live And Let Die Live.mp3",
+    cover: "Live And Let Die Live.jpg"
   }
 ];
 
@@ -130,7 +140,7 @@ function playSong() {
 // Pausar canción
 function pauseSong() {
   audio.pause();
-  updateControls();
+  updateControls(); 
 }
 
 // Cambiar clase activa
@@ -144,7 +154,7 @@ function changeActiveClass(lastIndex, newIndex) {
 
 // Cambiar el cover de la canción
 function changeCover(songIndex) {
-  cover.src = "../img/Reproductor/" + songList[songIndex].cover;
+  cover.src = "../assets/img/Reproductor/" + songList[songIndex].cover;
 }
 
 // Cambiar el título de la canción

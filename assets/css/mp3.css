@@ -20,7 +20,22 @@ body {
     border-radius: 1rem;
     padding: 2rem;
     color: white;
+    height: 400px;
+    overflow: auto;
     box-shadow: 2px 2px 3px black;
+}
+
+/* Scroll personalizado del reproductor */
+.player::-webkit-scrollbar{
+    width: 4px;
+    height: 90%;
+    border-radius: 20px;
+    background: #9b9b9b;
+}
+
+.player::-webkit-scrollbar-thumb{
+    background: #2f3030;
+    border-radius: 20px;
 }
 
 /* Title */
