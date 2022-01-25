@@ -4,13 +4,18 @@ body {
 
 .divGeneral {
   width: 100%;
+  /* background: rgb(2,0,36); */
+  background: linear-gradient(90deg, #2f3030 0%, #9b9b9b 35%);
+  /* background-color: #2f3030; */
+
+
 }
 .header {
   display: block;
   margin: 0 auto;
   box-sizing: border-box;
   width: 92%;
-  background-color: gainsboro;
+  background-color: #d95030ba;
   overflow: hidden;
   height: 160px;
   box-shadow: 1px 1px 1px black;
@@ -29,7 +34,7 @@ body {
 }
 
 .h1Titulo {
-  color: rgb(233, 88, 88);
+  color:  #2f3030;;
   font-style: oblique;
   font-size: 60px;
   margin-right: 55px;
@@ -130,7 +135,7 @@ body {
   display: block;
   margin: 0 auto;
   width: 92%;
-  height: auto;
+  /* height: auto; */
 }
 
 .divAlbun {
@@ -172,7 +177,7 @@ body {
 .content .contentTitle {
   text-align: center;
   font-size: 35px;
-  color: black;
+  color: #d95030ba;
 }
 
 .normal {
@@ -208,4 +213,11 @@ body {
 .divvideo {
   margin: 0 auto;
   display: block;
+}
+.estiloParrafos{
+  color: whitesmoke;
+
+}
+.size{
+  font-size: 20px;
 }
