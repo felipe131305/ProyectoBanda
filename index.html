@@ -13,23 +13,29 @@
 </head>
 
 <body>
-    <main class="divGeneral">
-        <header class="header">
-            <div class="centroHeader">
-                <img class="imagenTitulo" src="./assets/img/Carrusel/Imagen titulo.png" alt="" />
-                <h1 class="h1Titulo">Guns N' Roses</h1>
-                <div class="imagenBanda">
-                    <img src="./assets/img/Carrusel/banda titulo.jpg" alt="" />
+    <main class="container">
+        <header class="row header p-4">
+            <div class="col-12  align-middle">
+              <div class="row">
+                <div class="col-3 ">
+                  <img class="imagenTitulo"  src="./assets/img/Carrusel/Imagen titulo.png" alt="" />
                 </div>
+                <div class=" col-5 ">
+                  <h1 class=" h1Titulo text-center" > Guns N' Roses</h1>
+                </div>
+                <div class="col-4">
+                  <img class="imagenBanda" src="./assets/img/Carrusel/banda titulo.jpg" alt="" />
+                </div>
+              </div>
             </div>
         </header>
-        <div>
-          <nav class="nav">
-            <ul class="listaMenu">
-              <li class="itemMenu"><a href="./index.html">Inicio</a></li>
-              <li class="itemMenu"><a href="./view/sobreNosotros.html">Conoce Nuestra Banda</a></li>
-              <li class="itemMenu"><a href="./view/albumes.html">Albumes</a></li>
-              <li class="itemMenu"><a href="./view/miembros.html">Integrantes</a></li>
+        <div class="nav row">
+          <nav class=" col-12">
+            <ul class="listaMenu row">
+              <li class="itemMenu col-3"><a href="./index.html">Inicio</a></li>
+              <li class="itemMenu col-3"><a href="./view/sobreNosotros.html">Conocenos</a></li>
+              <li class="itemMenu col-3"><a href="./view/albumes.html">Albumes</a></li>
+              <li class="itemMenu col-3"><a href="./view/miembros.html">Integrantes</a></li>
             </ul>
           </nav>
         </div>
@@ -92,7 +98,6 @@
           <iframe class="divvideo" width="500" height="255" src="https://www.youtube.com/embed/r75OWwq2SAA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           <br><br>
         </div>
-      </header>
       <div>
       <div class="content">
         <div class="containerBtn">
@@ -140,7 +145,7 @@
           </div>
         </div>
       </div>
-            <footer>
+            <footer class="">
             <br />
             <a href="https://www.facebook.com/gunsnroses" target="_blank">
               <img
@@ -209,7 +214,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
     <script src="./assets/js/indexMain.js"></script>
-    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 
 </html>
