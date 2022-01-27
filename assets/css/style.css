@@ -27,7 +27,6 @@ body {
 
 .centroHeader {
   display: flex;
-  margin-left: 143px;
 }
 .DivCarrusel {
   width: 60%;
@@ -38,38 +37,27 @@ body {
 .h1Titulo {
   color:  #2f3030;;
   font-style: oblique;
-  font-size: 60px;
-  margin-right: 55px;
-  margin-left: 13px;
+  width: 100%;
 }
 
 .imagenTitulo {
-  width: 12%;
-  height: 100%;
-  margin: auto 0;
+  width: 97%;
+  margin: 0 auto;
 }
 .imagenBanda {
-  width: 32%;
+  width: 97%;
   margin: auto 0;
 }
 
-.imagenTitulo {
-  width: 12%;
-  height: 100%;
-}
+
 
 .imagenBanda img {
   width: 65%;
 }
-
-.imagenTitulo {
-  width: 12%;
-  height: 100%;
-}
 .nav {
   display: block;
   margin: 0 auto;
-  width: 92%;
+  width: 94%;
   background-color: #a3a2a223;
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
