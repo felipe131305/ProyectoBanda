@@ -6,12 +6,13 @@ body {
   width: 100%;
   position:absolute;
 }
+
 .header {
   display: block;
   margin: 0 auto;
   box-sizing: border-box;
   width: 92%;
-  background-color: gainsboro;
+  background-color: #d95030ba;
   overflow: hidden;
   height: 160px;
   box-shadow: 1px 1px 1px black;
@@ -19,47 +20,44 @@ body {
   border-bottom-left-radius: 10px; */
 }
 
+.colorCarrusel{
+  font-size: 20px;
+}
+
 .centroHeader {
   display: flex;
-  margin-left: 143px;
+}
+.DivCarrusel {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .h1Titulo {
-  color: rgb(233, 88, 88);
+  color:  #2f3030;;
   font-style: oblique;
-  font-size: 60px;
-  margin-right: 55px;
-  margin-left: 13px;
+  width: 100%;
 }
 
 .imagenTitulo {
-  width: 12%;
-  height: 100%;
-  margin: auto 0;
+  width: 97%;
+  margin: 0 auto;
 }
 .imagenBanda {
-  width: 32%;
+  width: 97%;
   margin: auto 0;
 }
 
-.imagenTitulo {
-  width: 12%;
-  height: 100%;
-}
+
 
 .imagenBanda img {
   width: 65%;
 }
-
-.imagenTitulo {
-  width: 12%;
-  height: 100%;
-}
 .nav {
   display: block;
   margin: 0 auto;
-  width: 92%;
-  background-color: gainsboro;
+  width: 94%;
+  background-color: #a3a2a223;
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
 }
@@ -131,13 +129,8 @@ body {
   width: 92%;
 }
 
-/* .divAlbun{
-  float: left;
-  width: 270px;
-  height: 330px;
-} */
 
-.imgAlbun{
+.imgAlbun {
   display: block;
   margin: 0 auto;
   width: 200px;
@@ -147,60 +140,86 @@ body {
   cursor: pointer;
 }
 
-.imgAlbun:hover{
+.imgAlbun:hover {
   transform: scale(1.03);
 }
 
-.tituloAlbun{
+.tituloAlbun {
   text-align: center;
 }
 
-.descripcionAlbun{
+.descripcionAlbun {
   text-align: center;
   font-size: 14px;
   color: #7c7c7c;
 }
 
-
-.content{
+.content {
   display: block;
   margin: 0 auto;
   width: 90%;
 }
 
-.content .contentTitle{
+.contentTitle {
   text-align: center;
   font-size: 35px;
-  color: black;
+  color: #d95030ba;
 }
 
-.normal{
+.normal {
   width: 100%;
   padding: 10px 10px;
   display: flex;
   box-sizing: border-box;
 }
 
-.normalInverso{
+.normalInverso {
   display: flex;
   flex-direction: row-reverse;
 }
 
-.imagenArtista{
+.imagenArtista {
   width: 40%;
   display: block;
   margin-top: auto;
   margin-bottom: auto;
 }
 
-.imagenArtista img{
+.imagenArtista img {
   width: 320px;
 }
 
-.bloqueInfo{
+.bloqueInfo {
   padding: 10px 20px;
 }
 
-.bloqueInfo p{
+.bloqueInfo p {
   font-size: 22px;
 }
+
+footer{
+  background-color: #d95030ba;
+  color: #02080e;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+}
+.visita{
+  text-align: center;
+ width: 100%;
+  display: block;
+  color: #02080e;
+  padding: 10px 10px;
+}
+.divvideo {
+  margin: 0 auto;
+  display: block;
+}
+.estiloParrafos{
+  color: whitesmoke;
+
+}
+.size{
+  font-size: 20px;
+}
+
